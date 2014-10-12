@@ -8,5 +8,4 @@
 tmux new-session -d 'zsh'
 tmux split-window -v -p 22 'zsh'
 tmux split-window -h 'zsh'
-#tmux new-window 'zsh'
 tmux -2 attach-session -d
